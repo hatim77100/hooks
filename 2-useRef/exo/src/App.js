@@ -1,5 +1,8 @@
+
+
 import { useRef } from "react";
 import "./App.css";
+import UseReff from "./pages/useRef/UseReff";
 
 // function App() {
 //   const inputRef = useRef(null);
@@ -372,6 +375,7 @@ function App() {
         veritatis laborum obcaecati. Voluptatum illum, commodi doloribus dicta
         dolore laudantium corrupti.
       </p>
+      <UseReff/>
     </div>
   );
 }
