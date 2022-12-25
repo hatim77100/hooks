@@ -1,5 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
+import {Routes, Route} from "react-router-dom";
+import Navbar from "./components/navbar/Navbar"; 
 
 function App() {
   console.log("render");
@@ -20,6 +22,9 @@ function App() {
         value={title}
       />
       <button onClick={() => setCount(count + 1)}>{count}</button>
+      <Routes>
+        <Route path="/navbar" element={<Navbar/>}/>
+      </Routes>
     </div>
   );
 }
